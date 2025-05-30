@@ -1,10 +1,10 @@
-<html lang="en">s
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>html tags</title>
-   <!-- <base href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_base_test">-->
-    <base href="https://www.w3schools.com"target="_blank">
+   <!-- <base href="https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_base_test">
+    <base href="https://www.w3schools.com"target="_blank">-->
 </head>
 <body>
 <!--
@@ -16,13 +16,15 @@
     <a href="assets/Woman.jpg"Download>Download the image</a><br>
     <a href="tel:+919344683145">Customer Care</a><br>
     <abbr title="Design of Transmission Elements">DTS subject is used to design the power transmission elements in mechanical parts.</abbr>
-    <address>
+    <footer>
+        <address>
         Diva Enterprises, <br>
         West Maasi Street,<br>
         Madurai. <br>
         Phone number: <a href="tel:+919344683145"> +91 9344683145</a>  
         E-Mail: <a href="mailto:harini2003sree@gmail.com"> harini2003sree@gmail.com</a>
-    </address>
+        </address>
+    </footer>
     <article>
         <h2>HARINI'S BLOG</h2>
         <P>I am Harini. I want to learn <dfn title="Hyper Text Markup Language">HTML</dfn>.So that I'm practicing by myself to learn the tags.</P>
@@ -78,15 +80,14 @@
     <li><data value="not defined">1003</data></li>
 </ol>
 <form action="submit_album" method="get">
-<label for="album">Favourite album of Taylor Swift</label>
-<input list="albums" name="albums" id="albums">
-<datalist id="albums">
-    <option value="LOVER"></option>
-    <option value="REPUTATION"></option>
-    <option value="FOLKLORE"></option>
-    <option value="EVERMORE"></option>
-    <option value="THE TORTURED POETS DEPARTMENT"></option>
-</datalist>
+<label for="album">Favourite album of Taylor Swift</label> 
+<select id="albums">
+    <option value="LOVER">LOVER</option>
+    <option value="REPUTATION">REPUTATION</option>
+    <option value="FOLKLORE">FOLKLORE</option>
+    <option value="EVERMORE">EVERMORE</option>
+    <option value="THE TORTURED POETS DEPARTMENT">THE TORTURED POETS DEPARTMENT</option>
+</select>
 <input type="submit">
 </form>
 <dl>
@@ -100,7 +101,29 @@
     <summary>How to learn all the tags in html?</summary>
     <p>I <em>need</em> to work on each tag to learn all of em.</p>
 </details>
+<textarea name="tags" id="tags"></textarea>
+<figure>
+    <embed src="assets/TS.jpeg" type="image/jpeg">
+        <figcaption>Fig.1- TAYLOR SWIFT</figcaption>
+</figure>
+<form>
+    <fieldset>
+        <legend>Personal Data</legend>
+        <label for="fname">First name</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="lname">Last name:</label>
+        <label for="lname">Last name:</label>
+        <input type="text" id="lname" name="lname"><br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+        <label for="birthday">Birthday:</label>
+        <input type="date" id="birthday" name="birthday"><br><br>
+        <input type="submit" value="Submit">
+ </fieldset>
 
+</form> 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/YbCF6OqTWug?si=twGdW0aKe0SVW5kJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>	
+<p>To copy a text ,we should press <kbd>ctrl</kbd> + <kbd>C</kbd>.</p>
 
     
 
